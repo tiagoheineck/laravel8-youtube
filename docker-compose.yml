@@ -25,4 +25,4 @@ services:
     links:
     - maria
     - redis
-    command: /bin/sh -c "composer instal && npm install && npm run dev && php artisan migrate:fresh --seed && php artisan serve --host 0.0.0.0"
+    command: /bin/sh -c "composer install && npm install && npm run dev && php artisan migrate:fresh --seed && php artisan serve --host 0.0.0.0"
