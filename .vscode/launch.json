@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "log" : true,
+            "stopOnEntry": false,
+            "pathMappings": {
+                "/app": "${workspaceFolder}/src"
+            },
+            "ignore": [
+                "**/vendor/**/*"
+            ]            
+        }
+    ]
+}

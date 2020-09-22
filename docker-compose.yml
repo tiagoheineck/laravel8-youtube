@@ -13,7 +13,7 @@ services:
   redis:
     image: redis:latest      
   dev:    
-    image: tiagoheineck/laravel:php7.4-cli        
+    image: tiagoheineck/laravel:php7.4-cli-xdebug        
     environment:
        uid: ${UID}
     user: ${UID}
